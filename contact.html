@@ -3,7 +3,7 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>Monolit   - Responsive  Architecture Template</title>
+        <title>ASTUTE Chess Academy</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                       <a href="index.html"><img src="images/chesslogo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -65,10 +65,7 @@
                 </div>
                 <!-- header-inner  end -->
                 <!-- share button  -->
-                <div class="show-share isShare">
-                    <span>Share</span>
-                    <i class="fa fa-chain-broken"></i>            
-                </div>
+            
                 <!-- share  end-->
             </header>
             <!--=============== wrapper ===============-->	
@@ -82,7 +79,7 @@
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="images/rook_figure_.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
@@ -109,51 +106,52 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h2 class="section-title">Where to <strong>Find us </strong></h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                        <h2 class="section-title">Enquiry<strong>Form </strong></h2>
+                                        <p>For enquires and enrolling in any of the courses, please fill out the enquiry form and submit. We will get back to you as soon as possible.</p>
                                     </div>
                                 </div>
-                                <div class="map-box">
+                                <!-- <div class="map-box">
                                     <div  id="map-canvas"></div>
-                                </div>
+                                </div> -->
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <div class="contact-details">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <h3 class="bold-title">Contact  details : </h3>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <h4>Office in New York</h4>
-                                                    <ul>
-                                                        <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
-                                                        <li><a href="#">+7(111)123456789</a></li>
-                                                        <li><a href="#">yourmail@domain.com</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <h4>Find Us On : </h4>
-                                                    <ul>
-                                                        <li><a href="#">Facebook</a></li>
-                                                        <li><a href="#">Twitter </a></li>
-                                                        <li><a href="#">Instagram</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    
                                         <!-- contact form -->
                                         <div class="contact-form-holder">
                                             <div id="contact-form">
                                                 <div id="message"></div>
                                                 <form method="post" action="php/contact.php" name="contactform" id="contactform">
                                                     <input name="name" type="text" id="name"  onClick="this.select()" value="Name *" >
+                                                    
+    <select class="form-control " id="exampleFormControlSelect1" style="width: 690px; padding: 15px 0px; color: #999; border: none; border-bottom: 1px solid #000; font-weight: 700; font-size: 12px; margin-bottom: 20px;">
+      <option selected>Select Your Age</option>
+      <option>5-7 years</option>
+      <option>8-10 years</option>
+      <option>11-15 years</option>
+      <option>15+ Above</option>
+    </select>
                                                     <input name="email" type="text" id="email" onClick="this.select()" value="E-mail *" >
-                                                    <input type="text"  name="phone" id="phone" placeholder="Phone *" value=""/>            
-                                                    <textarea name="comments"  id="comments" onClick="this.select()" >Message</textarea> 
-                                                    <div class="verify-wrap">
-                                                        <span class="verify-text"> How many gnomes were in the story about the "Snow-white" ?</span> 
-                                                        <input name="verify" type="text" id="verify" onClick="this.select()" value="0" >
-                                                    </div>                                                     
+                                                    <input type="text"  name="phone" id="phone" placeholder="Phone *" value=""/>    
+                                                    <!-- <div class="form-group"> -->
+    
+
+
+    
+    <select class="form-control " id="exampleFormControlSelect1" style="width: 690px; padding: 15px 0px; color: #999; border: none; border-bottom: 1px solid #000; font-weight: 700; font-size: 12px; margin-bottom: 20px;">
+      <option selected>Select Your Level</option>
+      <option>New To Chess</option>
+      <option>Begginer</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+      
+    </select>
+
+    <input name="city" type="text" id="city"  placeholder="City">
+
+    <input name="join" type="text" id="join"  placeholder="When your are going to join" >
+  
+                                                    <textarea name="comments"  id="comments">Message</textarea> 
+                                                                                                       
                                                     <button type="submit"  id="submit"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>Send Message </span></button>          										           											
                                                 </form>
                                             </div>
@@ -174,8 +172,8 @@
                                 <div class="col-md-6">
                                     <!-- Footer logo --> 
                                     <div class="footer-item footer-logo">
-                                        <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
-                                        <p>Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations.Client is the soul of the project.  </p>
+                                        <a href="index.html"><img src="images/chesslogo.png" alt=""></a>
+                                        <p>Exploring ∞ Possibilities.  </p>
                                     </div>
                                     <!-- Footer logo end --> 
                                 </div>
@@ -246,11 +244,9 @@
             <footer class="fixed-footer">
                 <div class="footer-social">
                     <ul>
-                        <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
+                        <li><a href="https://wa.me/917892961922" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/astutechessacademy/?igshid=OTJlNzQ0NWM%3D" target="_blank" ><i class="fa fa-instagram fa-2x"></i></a></li>
+                       
                     </ul>
                 </div>
                 <!-- Header  title --> 
@@ -262,6 +258,15 @@
             <!-- Fixed footer end-->
         </div>
         <!-- Main end -->
+        <footer>
+                <a href="https://wa.me/917892961922" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<section class="call-buton"><a class="cc-calto-action-ripple" href="tel:917892961922"><i class="fa fa-phone"></i><span class="num"></span>
+</a>
+</section>
+            </footer>
         <!--=============== google map ===============-->
         <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" type="text/javascript"></script>
         <!--=============== scripts  ===============-->
