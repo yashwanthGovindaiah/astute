@@ -4147,18 +4147,16 @@ p {
 	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } }
 
 
+
+
 @keyframes cc-calto-action-ripples {
 	0% {
-	  box-shadow: rgba(106, 242, 156, 1), 
-	  rgb(154, 228, 1), 
-	  0 0rgb(37, 211, 102),0 5px rgb(37, 211, 102), 
-	  0 0 0 10px rgb(37, 211, 102); }
+	  -webkit-box-shadow: 0 4px 10px rgba(37, 211, 60, 0.3), 0 0 0 0 rgba(37, 211, 60, 0.3), 0 0 0 5px rgba(37, 211, 60, 0.3), 0 0 0 10px rgba(37, 211, 60, 0.3);
+	  box-shadow: 0 4px 10px rgba(37, 211, 60, 0.3), 0 0 0 0 rgba(37, 211, 60, 0.3), 0 0 0 5px rgba(37, 211, 60, 0.3), 0 0 0 10px rgba(37, 211, 60, 0.3); }
 	100% {
-	  box-shadow: 0 4px 10px rgb(37, 211, 102), 
-	  0 0 0 5px rgb(37, 211, 102), 
-	  0 0 0 10px rgb(37, 211, 102), 
-	  0 0 0 12px rgb(37, 211, 102); } 
-	}
+	  -webkit-box-shadow: 0 4px 10px rgba(37, 211,60, 0.3), 0 0 0 5px rgba(37, 211, 60, 0.3), 0 0 0 10px rgba(37, 211, 60, 0.3), 0 0 0 20px rgba(37, 211, 60, 0);
+	  box-shadow: 0 4px 10px rgba(37, 211, 60, 0.3), 0 0 0 5px rgba(37, 211, 60, 0.3), 0 0 0 10px rgba(37, 211, 60, 0.3), 0 0 0 20px rgba(37, 211, 60, 0); } }
+
 	span.num{
 		position: absolute;
     color: #ec8b00;
